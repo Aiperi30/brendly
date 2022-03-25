@@ -20,9 +20,9 @@
     text-decoration: none;
     color: $accent;
     transition: all 0.3s;
+  }
 
-    &:hover {
-      color: lighten ($accent, 20%);
-    }
+  &:hover {
+    color: lighten($accent, 20%);
   }
 }

@@ -1,3 +1,5 @@
+@import "vars";
+
 .header {
   padding: 16px 0;
 
@@ -7,6 +9,7 @@
     align-items: center;
   }
 
+  
   &__nav-toggle {
     display: none;
   }
