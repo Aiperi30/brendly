@@ -24,14 +24,14 @@
   &__info {
     display: inline-block;
     margin: 0 0 45px;
-    font-family: "Lato";
+    font-family: $main-font;
     font-style: normal;
     font-weight: 900;
     font-size: 55px;
     line-height: 60px;
   }
   &__secondary {
-    font-family: $main-font;
+    font-family: $secondary-font;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -43,11 +43,5 @@
       background-color: $accent;
       border-color: $accent;
     }
-    margin: 0 0 45px;
-    font-family: $secondary-font;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 18px;
   }
 }
